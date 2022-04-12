@@ -1,5 +1,7 @@
 package com.company;
 
+import java.util.Scanner;
+
 public class Main {
     public static void getLastSymbol(String str)
     {
@@ -7,9 +9,7 @@ public class Main {
     }
 
     public static void main(String[] args) {
-	    String str = "Hello";
-        getLastSymbol(str);
-        str = "Bye";
-        getLastSymbol(str);
+	    Scanner scanner = new Scanner(System.in);
+        getLastSymbol(scanner.nextLine());
     }
 }
